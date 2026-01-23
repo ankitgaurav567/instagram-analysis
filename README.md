@@ -1,9 +1,9 @@
-# Instagram Data Analysis using SQL
+# Instagram Data Analysis using SQL and Power BI
 
 ## 📌 Project Summary
-This project involves **end-to-end SQL-based analysis of Instagram user activity data** to uncover insights related to **user engagement, growth trends, content performance, and platform integrity**. The analysis answers **real-world business and marketing questions** using structured queries and relational database concepts.
+This project involves **end-to-end SQL-based and power BI analysis of Instagram user activity data** to uncover insights related to **user engagement, growth trends, content performance, and platform integrity**. The analysis answers **real-world business and marketing questions** using structured queries and relational database concepts.
 
-The project demonstrates strong proficiency in **SQL, data analysis, analytical thinking, and business problem-solving**, making it suitable for **Data Analyst, Business Analyst, and SQL Analyst roles**.
+The project demonstrates strong proficiency in **SQL, Power BI ,data analysis, analytical thinking, and business problem-solving**, making it suitable for **Data Analyst, Business Analyst, and SQL Analyst roles**.
 
 ---
 
@@ -11,7 +11,8 @@ The project demonstrates strong proficiency in **SQL, data analysis, analytical 
 - **Database:** MySQL  
 - **SQL Version:** 9.2.0  
 - **IDE:** SQL Workbench  
-- **Operating System:** macOS  
+- **Operating System:** macOS,Windows for Power BI
+- Power BI desktop
 
 ---
 
@@ -88,11 +89,38 @@ The dataset simulates a real-world Instagram environment and includes the follow
 - Structuring queries for **performance and clarity**
 
 ---
+## 📈 Power BI Dashboard Overview
+The Power BI dashboard is divided into **two main pages**:
+
+### 🔹 Page 1: Signup & Growth Analysis
+- KPI Cards:
+  - Total Users
+  - Total Companies
+  - Number of Languages
+- User Growth by Year (Line Chart)
+- Weekly User Registration (Bar Chart)
+- Year slicer for interactive analysis
+
+*(Reference: Dashboard overview shown in the PBIX and PDF summary page)* :contentReference[oaicite:0]{index=0}
+
+---
+
+### 🔹 Page 2: Activity & Engagement Analysis
+- Event Activity Over Time
+- Activity per User (Average)
+- Device Distribution (Pie / Treemap)
+- Location-wise User Distribution
+
+This page focuses on **behavioral and engagement insights**, helping understand how users interact with the platform.
+
+---
+
 
 ## 📈 Key Outcomes
 - Extracted actionable insights on **user behavior, engagement, and growth**
 - Identified **high-value users, inactive users, and potential bot accounts**
 - Provided **data-driven recommendations** for marketing and product teams
+- Power bi dashboard KPI driven
 
 ---
 
@@ -111,16 +139,16 @@ Aspiring Data Analyst | SQL | Python | Data Analytics
 ## 🚀 How to Use This Repository
 1. Import the dataset into MySQL  
 2. Execute the SQL queries step-by-step  
-3. Review outputs to understand business insights  
+3. Review outputs to understand business insights
+4. Use bi file to use slicer and look at different aspect of data.
 
 ---
 
 ## 🔮 Future Enhancements
-- Add dashboards using **Power BI / Tableau**
 - Perform cohort and retention analysis
 - Optimize queries for large-scale datasets
 - Extend analysis with Python for automation
 
 ---
 
-⭐ *This project reflects practical SQL usage aligned with real business scenarios.*
+⭐ *This project reflects practical SQL  and Power BI usage aligned with real business scenarios.*
